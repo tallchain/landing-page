@@ -1,0 +1,105 @@
+* {
+    font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+button {
+    width: max-content;
+    padding: 8px 30px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 50px;
+}
+
+.topcontent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 300px;
+}
+
+.lower-topcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.lower-topcontent > .left {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 500px;
+}
+
+.topcontentimg {
+    width: 500px;
+    background-color: rgb(94, 84, 84);
+    border-radius: 0;
+    border-style: none;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+/* too much margin between hero texts*/
+/*don't like this solution */
+    margin-bottom: -10px;
+/*  */
+}
+    
+
+.middlecontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    width:max-content;
+}
+.box {
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.topcontent,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
