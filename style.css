@@ -130,6 +130,8 @@ h2 {
     border-radius: 5px;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 250px;
+    padding: 40px 50px;
 }
 
 .ctatext {
