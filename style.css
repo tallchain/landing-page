@@ -1,9 +1,10 @@
 * {
     font-family: "Roboto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
 
 img {
-    border: 3px solid black;
+    border: 3px solid rgb(55, 105, 197);
     width: 200px;
     height: 200px;
     border-radius: 20px;
@@ -49,10 +50,10 @@ body {
 
 .header {
     display: flex;
-    flex: 1;
     justify-content: space-between;
     align-items: center;
     padding: 20px 300px;
+    margin-bottom: 80px;
 }
 
 .lower-topcontent {
@@ -66,6 +67,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     max-width: 450px;
+    gap: 10px;
 }
 
 .topcontentimg {
@@ -78,10 +80,6 @@ body {
 .hero {
     font-size: 48px;
     font-weight: 900;
-/* too much margin between hero texts*/
-/*don't like this solution */
-    margin-bottom: -10px;
-/*  */
 }
 
 .middlecontent {
@@ -105,15 +103,24 @@ h2 {
     flex-wrap: wrap;
     width: 200px;
     margin: 20px;
+    text-align: center;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     color:#1F2937;
     font-weight: 300;
     background-color: #E5E7EB;
+    font-style: italic;
+    padding: 200px;
 }
 
+.quoted {
+    display: flex;
+    justify-content: right;
+}
 .cta {
     display: flex;
     background-color: #3882F6;
@@ -130,6 +137,7 @@ h2 {
 .footer {
     display: flex;
 }
+
 .topcontent,
 .footer {
     background-color: #1F2937;
