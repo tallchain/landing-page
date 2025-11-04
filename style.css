@@ -120,6 +120,8 @@ h2 {
 .quoted {
     display: flex;
     justify-content: right;
+    font-weight: bold;
+    font-style: normal;
 }
 .cta {
     display: flex;
